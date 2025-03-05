@@ -1,0 +1,41 @@
+body {
+    background-color: #b6b1b1;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #b6b1b1;
+    padding: 20px;
+    border-bottom: 3px solid white;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid white;
+}
+
+.container {
+    background-color: #b6b1b1;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 2px solid white;
+    text-align: left;
+}
+
+h1, h2, h3 {
+    color: black;
+}
+
+footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
