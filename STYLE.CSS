@@ -1,9 +1,9 @@
 /* Define Theme Colors */
 :root {
-    --background-color: #C8E8E4;
+    --background-color: #6d9eaf ;
     --text-color: black;
-    --header-color: #2b6777;
-    --container-color: #6d9eaf;
+    --header-color: #7bb6c6;
+    --container-color:  #C8E8E4;
     --border-color: black;
     --button-color: #2b6777;
     --button-hover: #144552;
@@ -44,7 +44,7 @@ header {
 
 .header-text h1 {
     margin: 0;
-    font-size: 28px;
+    font-size: 35px;
 }
 
 .header-text p {
@@ -59,6 +59,31 @@ header {
     max-width: 700px;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+/* Form Styles */
+.input-field {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+/* Button Styling */
+.btn-custom {
+    background-color: var(--button-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: var(--button-hover);
 }
 
 /* Footer */
