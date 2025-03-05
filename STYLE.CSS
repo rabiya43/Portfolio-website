@@ -1,16 +1,16 @@
 body {
-    background-color: #b6b1b1;
-    color: black;
-    font-family: Arial, sans-serif;
+    background-color: #C8E8E4;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
 header {
-    background-color: #b6b1b1;
+    background-color: #2b6777;
     padding: 20px;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid black;
 }
 
 .profile-img {
@@ -18,15 +18,15 @@ header {
     height: 150px;
     object-fit: cover;
     border-radius: 15px;
-    border: 5px solid white;
+    border: 5px solid rgb(0, 0, 0);
 }
 
 .container {
-    background-color: #b6b1b1;
+    background-color: #6d9eaf;
     padding: 20px;
     margin: 20px auto;
     max-width: 600px;
-    border: 2px solid white;
+    border: 3px solid black;
     text-align: left;
 }
 
@@ -35,7 +35,7 @@ h1, h2, h3 {
 }
 
 footer {
-    background-color: white;
+    background-color: black;
     padding: 10px;
     text-align: center;
 }
