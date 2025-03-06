@@ -7,6 +7,7 @@
     --border-color: black;
     --button-color: #2b6777;
     --button-hover: #144552;
+    --navbar-color: #7bb6c6;
 }
 
 /* General Styles */
@@ -16,6 +17,42 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: var(--navbar-color);
+    padding: 10px 20px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: var(--button-hover);
 }
 
 /* Header */
@@ -60,6 +97,7 @@ header {
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
+
 /* Form Styles */
 .input-field {
     width: 80%;
@@ -69,6 +107,37 @@ header {
     border-radius: 5px;
     background-color: white;
     color: black;
+}
+/* Skill Section */
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: var(--button-color);
+    text-align: right;
+    padding-right: 10px;
+    line-height: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 /* Button Styling */
@@ -92,4 +161,5 @@ footer {
     padding: 10px;
     text-align: center;
     font-size: 14px;
+    color: white;
 }

@@ -8,6 +8,21 @@
 </head>
 <body>
 
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <!-- Header Section -->
     <header>
         <div class="profile-container">
@@ -21,17 +36,17 @@
 
     <!-- Main Content -->
     <main>
-        <section class="container">
+        <section id="about" class="container">
             <h2>About Me</h2>
             <p>An undergraduate student at
                 Information Technology University
                 (ITU), Lahore, pursuing a Bachelor’s
                 degree in Artificial Intelligence
-                (BSAI)
-                .</p>
+                (BSAI).
+            </p>
         </section>
 
-        <section class="container">
+        <section id="education" class="container">
             <h2>Education</h2>
             <ul>
                 <li><strong>Bachelor in AI</strong> - ITU (2023 - 2027)</li>
@@ -39,7 +54,7 @@
             </ul>
         </section>
 
-        <section class="container">
+        <section id="projects" class="container">
             <h2>Projects</h2>
             <ul>
                 <li><strong>Fayda Run</strong> - Game Development</li>
@@ -47,17 +62,36 @@
             </ul>
         </section>
 
-        <section class="container">
+        <section id="skills" class="container">
             <h2>Skills</h2>
-            <ul>
-                <li>Game Development</li>
-                <li>Software Development</li>
-                <li>Project Management</li>
-                <li>Expert in Canva, Excel, Word</li>
-            </ul>
+            <div class="skill">
+                <span>C++/C#</span>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>Python</span>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>Game Development</span>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>Software Development</span>
+                <div class="progress-bar"><div class="progress" style="width: 50%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>Project Management</span>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>Canva, Excel, Word</span>
+                <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+            </div>
         </section>
+        
 
-        <section class="container">
+        <section id="experience" class="container">
             <h2>Experience</h2>
             <ul>
                 <li>Event Management Head - KBW 2022</li>
@@ -67,7 +101,7 @@
             </ul>
         </section>
 
-        <section class="container">
+        <section id="contact" class="container">
             <h2>Contact Me</h2>
             <form id="contact-form">
                 <label for="name">Name:</label><br>
@@ -82,14 +116,14 @@
                 <button type="submit" class="btn-custom">Submit</button>
             </form>
         </section>
-        
     </main>
+
     <script src="script.js"></script>
+
     <!-- Footer -->
     <footer>
         &copy; 2025 Rabiya Tahir
     </footer>
-   
 
 </body>
 </html>
